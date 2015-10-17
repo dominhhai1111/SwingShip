@@ -14,13 +14,11 @@
 		E1BFC0961BD0D48D009466EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BFC0951BD0D48D009466EA /* Images.xcassets */; };
 		E1BFC0991BD0D48D009466EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BFC0971BD0D48D009466EA /* LaunchScreen.xib */; };
 		E1BFC0A51BD0D48D009466EA /* SwingShipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BFC0A41BD0D48D009466EA /* SwingShipTests.m */; };
-		E1D434471BD0E6700055F229 /* Ship.png in Resources */ = {isa = PBXBuildFile; fileRef = E1D434461BD0E6700055F229 /* Ship.png */; };
 		E1D434491BD0E9CD0055F229 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D434481BD0E9CD0055F229 /* AVFoundation.framework */; };
 		E1D4344B1BD0EB9B0055F229 /* Caribe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1D4344A1BD0EB9B0055F229 /* Caribe.mp3 */; };
 		E1D49A1B1BD0F0860046306C /* Ship2.png in Resources */ = {isa = PBXBuildFile; fileRef = E1D49A1A1BD0F0860046306C /* Ship2.png */; };
 		E1D777801BD0E48000F64B92 /* sea1.png in Resources */ = {isa = PBXBuildFile; fileRef = E1D7777D1BD0E48000F64B92 /* sea1.png */; };
 		E1D777811BD0E48000F64B92 /* sea2.png in Resources */ = {isa = PBXBuildFile; fileRef = E1D7777E1BD0E48000F64B92 /* sea2.png */; };
-		E1D777821BD0E48000F64B92 /* Ship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1D7777F1BD0E48000F64B92 /* Ship.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,13 +45,11 @@
 		E1BFC09E1BD0D48D009466EA /* SwingShipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwingShipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BFC0A31BD0D48D009466EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1BFC0A41BD0D48D009466EA /* SwingShipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwingShipTests.m; sourceTree = "<group>"; };
-		E1D434461BD0E6700055F229 /* Ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ship.png; sourceTree = "<group>"; };
 		E1D434481BD0E9CD0055F229 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		E1D4344A1BD0EB9B0055F229 /* Caribe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Caribe.mp3; path = ../../../Downloads/Caribe.mp3; sourceTree = "<group>"; };
 		E1D49A1A1BD0F0860046306C /* Ship2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ship2.png; path = ../../Photo/Ship2.png; sourceTree = "<group>"; };
 		E1D7777D1BD0E48000F64B92 /* sea1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sea1.png; sourceTree = "<group>"; };
 		E1D7777E1BD0E48000F64B92 /* sea2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sea2.png; sourceTree = "<group>"; };
-		E1D7777F1BD0E48000F64B92 /* Ship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ship.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,10 +137,8 @@
 			children = (
 				E1D49A1A1BD0F0860046306C /* Ship2.png */,
 				E1D4344A1BD0EB9B0055F229 /* Caribe.mp3 */,
-				E1D434461BD0E6700055F229 /* Ship.png */,
 				E1D7777D1BD0E48000F64B92 /* sea1.png */,
 				E1D7777E1BD0E48000F64B92 /* sea2.png */,
-				E1D7777F1BD0E48000F64B92 /* Ship.jpg */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -229,11 +223,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1D777821BD0E48000F64B92 /* Ship.jpg in Resources */,
 				E1BFC0941BD0D48D009466EA /* Main.storyboard in Resources */,
 				E1D4344B1BD0EB9B0055F229 /* Caribe.mp3 in Resources */,
 				E1D777801BD0E48000F64B92 /* sea1.png in Resources */,
-				E1D434471BD0E6700055F229 /* Ship.png in Resources */,
 				E1D777811BD0E48000F64B92 /* sea2.png in Resources */,
 				E1BFC0991BD0D48D009466EA /* LaunchScreen.xib in Resources */,
 				E1BFC0961BD0D48D009466EA /* Images.xcassets in Resources */,
